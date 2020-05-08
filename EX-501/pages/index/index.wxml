@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class='box'>
+  <view class='title'>成绩等级计算器</view>
+  <input bindblur='scoreInput' placeholder="请输入成绩"></input>
+  <view wx:if="{{score == 100}}">膜拜大佬</view>
+  <view wx:elif="{{score >= 90}}">秀儿是你吗</view>
+  <view wx:elif="{{score >= 80}}">你我皆良人</view>
+  <view wx:elif="{{score >= 60}}">恭喜你合格了</view>
+  <view wx:elif="{{score >= 0}}">上帝给你开了另一扇门</view>
+  <view wx:else>成绩输入有误</view>
+</view>

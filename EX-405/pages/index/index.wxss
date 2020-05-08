@@ -1,0 +1,5 @@
+/**index.wxss**/
+.view_item{
+  width: 100%;
+  height: 50px;
+}

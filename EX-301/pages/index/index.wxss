@@ -1,0 +1,5 @@
+/**index.wxss**/
+input{
+  border-bottom: 1px dashed green;
+  margin: 20px 0;
+}

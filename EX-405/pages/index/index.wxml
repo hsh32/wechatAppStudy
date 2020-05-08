@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class='box'>
+  <view class='title'>wx:if</view>
+  <input placeholder="输入你喜欢的颜色" bindblur='my_color'></input>
+  <view style = "margin: 20px">
+    <view wx:if = "{{color == 'pink'}}">粉色</view>
+    <view wx:elif = "{{color == 'blue'}}">蓝色</view>
+    <view wx:elif = "{{color == 'green'}}">绿色</view>
+    <view wx:elif = "{{color =='purple'}}">紫色</view>
+    <view wx:else>其他</view>
+    
+    <view class='view_item' style = "background-color : {{color}}">
+  </view>
+  </view>
+ 
+</view>
